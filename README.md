@@ -23,6 +23,8 @@ Docker image enthält:
 - Python3
 - benötigte Pythonpakete
 
+BEWARE: das Image ist sehr groß, enthält dafür aber alles, was zum selber ausprobieren benötigt wird!
+
 ```bash
 docker pull codecentric/from-keras-to-production-baseimage
 ```
