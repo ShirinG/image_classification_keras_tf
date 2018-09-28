@@ -13,8 +13,7 @@ Installationshinweise: Wir werden mit Python3 in Google Collaboratory arbeiten.
 
 ## Jupyterlab starten
 
-Docker image enthält:
-[https://github.com/codecentric/from-keras-to-production-baseimage](https://github.com/codecentric/from-keras-to-production-baseimage)
+Docker image [https://github.com/codecentric/from-keras-to-production-baseimage](https://github.com/codecentric/from-keras-to-production-baseimage) enthält:
 
 - Datensatz (fruits)
 - Vortrainierte Netze (VGG16, ResNet50, Xception)
@@ -33,6 +32,8 @@ docker pull codecentric/from-keras-to-production-baseimage
 docker run -p 8888:8888 -v $(pwd)/notebooks:/keras2production/notebooks codecentric/from-keras-to-production-baseimage
 ```
 ## Run on Windows
+
+- %cd% oder absoluten Pfad zum Ordner "notebooks"
 
 ```bash
 docker run -p 8888:8888 -v %cd%/notebooks:/keras2production/notebooks codecentric/from-keras-to-production-baseimage
