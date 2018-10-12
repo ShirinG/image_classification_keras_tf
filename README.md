@@ -1,4 +1,4 @@
-# Workshop material for Image Classification with Python, Keras and TensorFlow
+# Workshop material for Image Classification & Natural Language Processing with Python, Keras and TensorFlow
 
 ## Installation / Docker
 
